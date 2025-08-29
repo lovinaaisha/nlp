@@ -5,7 +5,7 @@ Created on Tue Jul 29 15:31:01 2025
 @author: lovin
 """
 NAME = "Lovina Putri" 
-UNI = "lap2236"   
+UNI = "...."   
 
 # Import required packages and functions
 from utils import *
@@ -15,8 +15,8 @@ import pandas as pd
 nltk.download('stopwords')  
 
 # Set directories
-the_d_path = "C:/Users/lovin/nlp/hw3/data/"
-the_path = "C:/Users/lovin/nlp/hw3/output/"
+the_d_path = "[path]/hw3/data/"
+the_path = "[path]/hw3/output/"
 
 # Load and clean the corpus into a DataFrame with `body` column
 the_data = file_crawler(the_d_path)
@@ -103,4 +103,5 @@ if __name__ == "__main__":
         print("\nRunning invalid token test...")
         word_prob("", test_col, the_data)
     except ValueError as e:
+
         print("Expected error:", e)
