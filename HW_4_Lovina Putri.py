@@ -25,11 +25,11 @@ os.makedirs(output_path, exist_ok=True)
 subreddit_channel = 'MachineLearning+fishing'
 
 reddit = praw.Reddit(
-    client_id="uOcWmsVUV-icEnhOxPZeSA",
-    client_secret="Q1C_zpV4V09EcnkpRIVNwpOp0Bd-Bw",
+    client_id="[your client id]",
+    client_secret="[your client secret]",
     user_agent="testscript by u/fakebot3",
-    username="lovinaputri",
-    password="Awikw0k!!",
+    username="[your username]",
+    password="[your password]",
     check_for_async=False
 )
 print(reddit.read_only)
@@ -188,4 +188,5 @@ for comment in reddit.subreddit(subreddit_channel).stream.comments(skip_existing
     print("\n" + "—"*40)
     print("BODY:", preview)
     print(f"PRED: {label} | PROB: {score:.3f} | ALL_PROBS: {all_probs}")
+
 
