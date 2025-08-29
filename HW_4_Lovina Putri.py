@@ -6,7 +6,7 @@ Created on Mon Aug 11 17:16:56 2025
 @author: lovin
 """
 NAME = "Lovina Putri"
-UNI  = "lap2236"
+UNI  = "...."
 
 import os
 import praw
@@ -18,8 +18,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # === Directory ===
-the_path    = "C:/Users/lovin/nlp/hw4/data/"
-output_path = "C:/Users/lovin/nlp/hw4/output/"
+the_path    = "[path]/hw4/data/"
+output_path = "[path]/hw4/output/"
 os.makedirs(output_path, exist_ok=True)
 
 subreddit_channel = 'MachineLearning+fishing'
@@ -188,3 +188,4 @@ for comment in reddit.subreddit(subreddit_channel).stream.comments(skip_existing
     print("\n" + "—"*40)
     print("BODY:", preview)
     print(f"PRED: {label} | PROB: {score:.3f} | ALL_PROBS: {all_probs}")
+
