@@ -5,15 +5,15 @@ Created on Mon Jul 21 22:55:39 2025
 @author: lovina
 """
 NAME = "Lovina Putri" 
-UNI = "lap2236"   
+UNI = "...."   
 
 import os
 import re
 import pandas as pd
 import math
 
-data_path = "C:/Users/lovin/nlp/hw2/data/"
-output_path = "C:/Users/lovin/nlp/hw2/output/"
+data_path = "[path]/hw2/data/"
+output_path = "[path]/hw2/output/"
 os.makedirs(output_path, exist_ok=True)
 
 # =============================================================================
@@ -137,4 +137,5 @@ the_data["vader"] = the_data["body"].apply(
 #                                 Question 4
 # =============================================================================
 summary = the_data[["simple_senti", "vader"]].agg(["mean", "median", "std"])
+
 print(summary)
