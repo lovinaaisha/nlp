@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Homework 1 | Natural Language Processing for the Social Sciences (GR5067)
+Homework 1 | Natural Language Processing for the Social Sciences
 
 Instructions:
 1. Write your answer in the TODO area for each function.
@@ -9,7 +9,7 @@ Instructions:
 """
 
 NAME = "Lovina Putri"  # Fill in your name
-UNI = "lap2236"   # Fill in your UNI
+UNI = "...."   # Fill in your UNI
 
 import re
 # add other imports if needed
@@ -278,4 +278,5 @@ if __name__ == "__main__":
     print()
     
     # Run all tests
+
     run_all_tests()
