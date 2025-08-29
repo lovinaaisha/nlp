@@ -2,7 +2,7 @@
 """
 Created on Tue Jul  8 18:09:29 2025
 
-@author: pathouli
+@author: ......
 """
 
 def jd_fun(str_a, str_b):
@@ -403,4 +403,5 @@ def model_grid_fun(df_in, lab_in, sw_i, t_s, c_v, g_in, o_p):
 #     except:
 #         print ("Can't open", p_in)
 #         pass
+
 #     return txt
